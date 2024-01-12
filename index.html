@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"> -->
+  <link rel="icon" href="assets/image/logo.png">
+  <title>باروت سفاري للرحلات البريه و الجويه</title>
+  <script src="assets/js/jquery-for-count.min.js"></script>
+</head>
+
+<body class="arabic body">
+  <div class="load">
+    <img src="assets/image/Palestineflag.gif" alt="erorr">
+  </div> 
+  <!-- start header -->
+  <header class="py-3">
+    <div class="container py-1">
+      <div class="row ">
+        <div class="col-lg-3 col-md-3 col-6 logo d-flex justify-content-center align-items-center"><img
+            class=" w-75-px h-75-px" src="assets/image/logo.png" alt="erorr">
+          <h4>باروت <span>سفاري</span></h4>
+        </div>
+        <div class="  left-button row col-lg-9 col-md-9 col-5  align-items-center">
+          <div
+            class=" col-lg-8 col-md-8 col-3 d-flex justify-content-lg-center justify-content-md-center justify-content-end  ">
+            <button class="  bar btn btn-outline-primary  d-lg-none d-md-none d-flex mb-2 "><i
+                class="fa-solid fa-bars"></i></button>
+            <div class="page-links  ">
+              <ul class="links d-flex justify-content-center align-items-center m-auto">
+                <li><a href="#">الرائسيه</a></li>
+                <li><a href=" #travel">الرحلات</a></li>
+                <li><a href=" #active">الانشطه</a></li>
+                <li><a href="#place">الاماكن</a></li>
+                <li><a href="#end">اخري</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-6 d-flex justify-content-end search"><button class="btn btn-primary">أبحث <i
+                class="fa-solid fa-angle-down"></i></button></div>
+        </div>
+      </div>
+    </div>
+    <div class="links-search">
+      <div class="container ">
+        <div class="row d-flex justify-content-center text-light">
+          <div class="d-flex justify-content-around align-items-center w-100  py-2">
+            <div class="list-search">
+              <div><i class="fa-solid fa-location-dot"></i></div>
+              <div class="chose">
+                <h5>اختر المدينه</h5>
+                <select id="city">
+                  <option value="">الاسكندريه</option>
+                  <option value="">مكة</option>
+                  <option value="">جزيرة تونغا</option>
+                  <option value="">بربادوس</option>
+                  <option value=""> بريستول</option>
+                  <option value="">يورك</option>
+                  <option value="">سريلانكا</option>
+                  <option value="">بالي </option>
+                  <option value=""> أوساكا</option>
+                  <option value=""> بتايا</option>
+                  <option value="">بالما</option>
+                  <option value=""> بوكيت</option>
+                  <option value="">هونج كونج</option>
+                  <option value="">ميلان</option>
+                </select>
+              </div>
+            </div>
+            <div class="list-search">
+              <div><i class="fa-solid fa-calendar-days"></i> </div>
+              <div class="chose">
+                <h5>اختر ميعاد السفر</h5>
+                <input type="date" name="date" id="date">
+              </div>
+            </div>
+            <div class="list-search">
+              <div><i class="fa-solid fa-flag"></i> </div>
+              <div class="chose">
+                <h5>الدوله</h5>
+                <select name="" id="">
+                  <option value=""> فلسطين</option>
+                  <option value=""> إسبانيا</option>
+                  <option value=""> تركيا</option>
+                  <option value=""> تايلاند</option>
+                  <option value=""> سنغافورة</option>
+                  <option value=""> ماليزيا</option>
+                  <option value=""> مصر</option>
+                  <option value=""> اليابان</option>
+                  <option value=""> تايلاند</option>
+                  <option value=""> إندونيسيا</option>
+                  <option value=""> مالديف</option>
+                </select>
+              </div>
+            </div>
+            <div class="list-search">
+              <button class="btn btn-primary search "> ابحث <i class="fa-solid fa-search text-light"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end header  -->
+  <!-- /////////////////////////////////// -->
+  <!-- start landing -->
+  <div class="landing mb-5" data-aos="zoom-in"  data-aos-duration="1000" >
+    <div class="fade1">
+      <div>
+        <img src="assets/image/ladning-1.jpg" alt="">
+        <div class="text-landing">
+          <h1 class="animate__animated" data-animation-in="animate__fadeInDown"> الاماكن و السفاري</h1>
+          <p class="animate__animated" data-animation-in="animate__fadeInDown">افضل الاماكن و السفاري</p>
+        </div>
+      </div>
+      <div>
+        <img src="assets/image/landing-2.jpg" alt="">
+        <div class="text-landing">
+          <h1 class="animate__animated" data-animation-in="animate__fadeInDown"> الاماكن و السفاري</h1>
+          <p class="animate__animated" data-animation-in="animate__fadeInDown">افضل الاماكن و السفاري</p>
+        </div>
+      </div>
+      <div>
+        <img src="assets/image/landing-3.jpg" alt="">
+        <div class="text-landing">
+          <h1 class="animate__animated" data-animation-in="animate__fadeInDown"> الاماكن و السفاري</h1>
+          <p class="animate__animated" data-animation-in="animate__fadeInDown">افضل الاماكن و السفاري</p>
+        </div>
+      </div>
+      <div>
+        <img src="assets/image/landing-4.jpg" alt="">
+        <div class="text-landing">
+          <h1 class="animate__animated" data-animation-in="animate__fadeInDown"> الاماكن و السفاري</h1>
+          <p class="animate__animated" data-animation-in="animate__fadeInDown">افضل الاماكن و السفاري</p>
+        </div>
+      </div>
+    </div>
+    <div class="social">
+      <ul>
+        <li class="fa-brands fa-facebook"></li>
+        <li class="fa-brands fa-twitter"></li>
+        <li class="fa-brands fa-instagram"></li>
+      </ul>
+    </div>
+  </div>
+  <!-- end landing   -->
+  <!-- start scroll  -->
+  <div class="container mb-5 " data-aos="fade-left"  data-aos-duration="1000" >
+    <div class="section mb-5">
+      <h2> المميزات</h2>
+    </div>
+    <section class="splide" dir="ltr">
+      <div class="splide__track">
+        <ul class="splide__list ">
+          <li class="splide__slide text-dark"><img src="assets/image/icon-1c.png" alt="erorr">
+            <p>تخيم</p>
+          </li>
+          <li class="splide__slide text-dark"><img src="assets/image/icon-2c.png" alt="erorr">
+            <p>اصطحاب الحيوانات</p>
+          </li>
+          <li class="splide__slide text-dark"><img src="assets/image/icon-3c.png" alt="erorr">
+            <p>سباحه</p>
+          </li>
+          <li class="splide__slide text-dark"><img src="assets/image/icon-4c.png" alt="erorr">
+            <p>منزل</p>
+          </li>
+          <li class="splide__slide text-dark"><img src="assets/image/icon-5c.png" alt="erorr">
+            <p>تكلفه بسيطه</p>
+          </li>
+          <li class="splide__slide text-dark"><img src="assets/image/icon-6c.png" alt="erorr">
+            <p>وجبات</p>
+          </li>
+          <!-- <li class="splide__slide text-dark"><img src="assets/image/icon-7c.png" alt="erorr"></li> -->
+        </ul>
+      </div>
+    </section>
+  </div>
+  <!-- end scroll  -->
+  <!-- start cards  -->
+  <div class="cards mb-5" id="travel">
+    <div class="container mb-5 ">
+      <div class="section mb-5" data-aos="fade-down"  data-aos-duration="1000">
+        <h2> الاماكن و الزياره</h2>
+      </div>
+
+      <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 mr-auto ml-auto" data-aos="fade-up"  data-aos-duration="1000">
+        <div class="card col">
+          <div class="card-img-top"><img src="assets/image/card-1.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="card-title d-flex justify-content-between">
+              <h4>الامازون</h4>
+              <p>1350 ج.م</p>
+            </div>
+            <p>تحرص تأتي سامح يحتاجها خاصة نادي رؤية سامح هام مؤتمر وأجتماعيا ؤهام يحتاجها</p>
+            <div class=" icon-deatils">
+              <div class="location">
+                <h6><i class="fa-solid fa-location-dot"></i>الامازون و غابات الامازون</h6>
+              </div>
+              <div class="stars d-flex justify-content-end align-items-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="specials">
+              <ul>
+                <li><i class="fa-solid fa-clock"></i> 2 ساعات</li>
+                <li><i class="fa-solid fa-calendar-days"></i> 2 ايام</li>
+                <li><i class="fa-solid fa-utensils"></i> وجبات </li>
+                <li> <i class="fa-solid fa-person-swimming"></i> انشطه </li>
+              </ul>
+            </div>
+            <div class="d-flex  ">
+              <button class=" btn btn-outline-primary w-100">المزيد</button>
+              <button class="buy btn btn-primary w-100 ">اشترك</button>
+            </div>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="card-img-top"><img src="assets/image/card-2.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="card-title d-flex justify-content-between">
+              <h4>اسكتلاندا</h4>
+              <p>3450 ج.م</p>
+            </div>
+            <p>تحرص تأتي سامح يحتاجها خاصة نادي رؤية سامح هام مؤتمر وأجتماعيا ؤهام يحتاجها</p>
+            <div class=" icon-deatils">
+              <div class="location">
+                <h6><i class="fa-solid fa-location-dot"></i> اسكتلاندا ,بحر اسكتلاندا</h6>
+              </div>
+              <div class="stars d-flex justify-content-end align-items-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="specials">
+              <ul>
+                <li><i class="fa-solid fa-clock"></i> 7 ساعات</li>
+                <li><i class="fa-solid fa-calendar-days"></i> 5 ايام</li>
+                <li><i class="fa-solid fa-utensils"></i> وجبات </li>
+                <li> <i class="fa-solid fa-person-swimming"></i> انشطه </li>
+              </ul>
+            </div>
+            <div class="d-flex  ">
+              <button class=" btn btn-outline-primary w-100">المزيد</button>
+              <button class="buy btn btn-primary w-100 ">اشترك</button>
+            </div>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="card-img-top"><img src="assets/image/card-3.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="card-title d-flex justify-content-between">
+              <h4>ايسلاندا</h4>
+              <p>350 ج.م</p>
+            </div>
+            <p>تحرص تأتي سامح يحتاجها خاصة نادي رؤية سامح هام مؤتمر وأجتماعيا ؤهام يحتاجها</p>
+            <div class=" icon-deatils">
+              <div class="location">
+                <h6><i class="fa-solid fa-location-dot"></i> ايسلاند , الجزيره البيضاء</h6>
+              </div>
+              <div class="stars d-flex justify-content-end align-items-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="specials">
+              <ul>
+                <li><i class="fa-solid fa-clock"></i> 5 ساعات</li>
+                <li><i class="fa-solid fa-calendar-days"></i> 3 ايام</li>
+                <li><i class="fa-solid fa-utensils"></i> وجبات </li>
+                <li> <i class="fa-solid fa-person-swimming"></i> انشطه </li>
+              </ul>
+            </div>
+            <div class="d-flex  ">
+              <button class=" btn btn-outline-primary w-100">المزيد</button>
+              <button class="buy btn btn-primary w-100 ">اشترك</button>
+            </div>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="card-img-top"><img src="assets/image/card-4.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="card-title d-flex justify-content-between">
+              <h4>القطب الشمالي</h4>
+              <p>3570ج.م</p>
+            </div>
+            <p>تحرص تأتي سامح يحتاجها خاصة نادي رؤية سامح هام مؤتمر وأجتماعيا ؤهام يحتاجها</p>
+            <div class=" icon-deatils">
+              <div class="location">
+                <h6><i class="fa-solid fa-location-dot"></i> القطب الشمالي, </h6>
+              </div>
+              <div class="stars d-flex justify-content-end align-items-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="specials">
+              <ul>
+                <li><i class="fa-solid fa-clock"></i> 5 ساعات</li>
+                <li><i class="fa-solid fa-calendar-days"></i> 3 ايام</li>
+                <li><i class="fa-solid fa-utensils"></i> وجبات </li>
+                <li> <i class="fa-solid fa-person-swimming"></i> انشطه </li>
+              </ul>
+            </div>
+            <div class="d-flex  ">
+              <button class=" btn btn-outline-primary w-100">المزيد</button>
+              <button class="buy btn btn-primary w-100 ">اشترك</button>
+            </div>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="card-img-top"><img src="assets/image/card-5.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="card-title d-flex justify-content-between">
+              <h4>بلجيكا</h4>
+              <p>2350 ج.م</p>
+            </div>
+            <p>تحرص تأتي سامح يحتاجها خاصة نادي رؤية سامح هام مؤتمر وأجتماعيا ؤهام يحتاجها</p>
+            <div class=" icon-deatils">
+              <div class="location">
+                <h6><i class="fa-solid fa-location-dot"></i> بلجيكا , جبال</h6>
+              </div>
+              <div class="stars d-flex justify-content-end align-items-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="specials">
+              <ul>
+                <li><i class="fa-solid fa-clock"></i> 2 ساعات</li>
+                <li><i class="fa-solid fa-calendar-days"></i> 6 ايام</li>
+                <li><i class="fa-solid fa-utensils"></i> وجبات </li>
+                <li> <i class="fa-solid fa-person-swimming"></i> انشطه </li>
+              </ul>
+            </div>
+            <div class="d-flex  ">
+              <button class=" btn btn-outline-primary w-100">المزيد</button>
+              <button class="buy btn btn-primary w-100 ">اشترك</button>
+            </div>
+          </div>
+        </div>
+        <div class="card col">
+          <div class="card-img-top"><img src="assets/image/card-6.jpg" alt=""></div>
+          <div class="card-body">
+            <div class="card-title d-flex justify-content-between">
+              <h4>تايلند</h4>
+              <p>1750 ج.م</p>
+            </div>
+            <p>تحرص تأتي سامح يحتاجها خاصة نادي رؤية سامح هام مؤتمر وأجتماعيا ؤهام يحتاجها</p>
+            <div class=" icon-deatils">
+              <div class="location">
+                <h6><i class="fa-solid fa-location-dot"></i> تايلاند , الجزيره البيضاء</h6>
+              </div>
+              <div class="stars d-flex justify-content-end align-items-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="specials">
+              <ul>
+                <li><i class="fa-solid fa-clock"></i> 2 ساعات</li>
+                <li><i class="fa-solid fa-calendar-days"></i> 2 ايام</li>
+                <li><i class="fa-solid fa-utensils"></i> وجبات </li>
+                <li> <i class="fa-solid fa-person-swimming"></i> انشطه </li>
+              </ul>
+            </div>
+            <div class="d-flex  ">
+              <button class=" btn btn-outline-primary w-100">المزيد</button>
+              <button class="buy btn btn-primary w-100 ">اشترك</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- end cards  -->
+  <!-- ///////////////////// -->
+  <!-- start content  -->
+  <div class="content mb-60-px py-3" data-aos="fade-up"  data-aos-duration="1000">
+    <div class="container">
+      <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1">
+        <div class="col">
+          <div class=" logo d-flex align-items-center"><img class=" w-75-px h-75-px" src="assets/image/logo.png"
+              alt="erorr">
+            <h4>باروت <span>سفاري</span></h4>
+          </div>
+          <p>معنا ستكتشق العالم جميع المناطق السياحيه حول العالم و جميه المدن الساحليه ة جميع الانشطه , معني ستكتشق
+            العالم جميع المناطق السياحيه حول العالم و جميه المدن الساحليه ة جميع الانشطه</p>
+          <button class="btn btn-primary">لمعرفه المزيد</button>
+        </div>
+        <div class="col">
+          <img src="assets/image/hide-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end content  -->
+  <!-- start activity  -->
+  <div class="activity py-5"  id="active">
+    <div class="container">
+      <div class="section mb-5" data-aos="fade-down"  data-aos-duration="1000">
+        <h2> الانشطه</h2>
+      </div>
+      <div class="top-activ row row-cols-lg-2 row-cols-md-2 row-cols-1" data-aos="fade-up"  data-aos-duration="1000">
+        <div class="col">
+          <img src="assets/image/activity-1.jpg" alt="erorr">
+          <div class="text-active">
+            <h4>رحله للقطب الشمالي</h4>
+            <p>هل تتحلى بروح المغامرة وفكرت يومًا في السفر إلى القطب الشمالي؟ هذه الرحلة الطويلة ستأخذك إلى أبعد نقطة في
+              العالم في منتصف المحيط القطبي الشمالي؛ وسواء سافرت إلى القطب الشمالي المغناطيسي (حيث تشير البوصلة) </p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="assets/image/activity2.jpg" alt="erorr">
+          <div class="text-active">
+            <h4>رحله غطس</h4>
+            <p>
+              رحلة الغطس هي تجربة ساحرة تأخذك إلى عالم مختلف تحت سطح الماء. في مياه البحر الأحمر، يمكنك استكشاف النظام
+              البيئي المذهل، رؤية الشعاب المرجانية الملونة، ومشاهدة الأسماك والكائنات البحرية بألوانها وأشكالها
+              المتنوعة. إذا كنت تبحث عن مغامرة لا تُنسى، فرحلة الغطس من الغردقة هي خيار رائع</p>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-activ row row-cols-lg-2 row-cols-md-2 row-cols-1">
+        <div class="col">
+          <img src="assets/image/activity3.jpg" alt="erorr">
+          <div class="text-active">
+            <h4>تسلق جبال</h4>
+            <p>مغامرة مثيرة تأخذك إلى قمم العالم. يُعتبر تسلق الجبال رياضةً وتحديًا في آن واحد. يشمل التسلق تحدي
+              الطبيعة، والتفكير الاستراتيجي، والقوة البدنية. منذ أوائل القرن التاسع عشر، بدأ المتسلقون في استكشاف قمم
+              جديدة حول العالم، مثل جبال الأنديز وجبال الروكي وجبال الهملايا</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="assets/image/activity4.jpg" alt="erorr">
+          <div class="text-active">
+            <h4>رحله بحريه</h4>
+            <p>ستختار المنطقة أو المنفذ الذي يناسبك
+              ستزور المزيد من الوجهات برحلات أطول وأكثر تميزًا
+              سوف تستمتع بتجارب تذوق أفضل على متن الطائرة
+              استدامة أكبر في رحلتك
+              الأسعار أرخص مما تعتقد</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end activity  -->
+  <!-- //////////////////////////////// -->
+  <!-- start places  -->
+  <div class="places mb-5" id="place">
+    <div class="container m-auto" >
+      <div class="section mb-5" data-aos="fade-down"  data-aos-duration="1000">
+        <h2> افضل الاماكن</h2>
+      </div>
+      <div class=" autoplay2" data-aos="fade-left"  data-aos-duration="1000">
+        <div><img src="assets/image/place-1.jpg" alt="erorr">
+          <p>القطب الجنوبي</p>
+        </div>
+        <div><img src="assets/image/place-2.jpg" alt="erorr">
+          <p>المالديف</p>
+        </div>
+        <div><img src="assets/image/place-3.jpg" alt="erorr">
+          <p>الاماون</p>
+        </div>
+        <div><img src="assets/image/place-4.jpg" alt="erorr">
+          <p>القطب الشمالي</p>
+        </div>
+        <div><img src="assets/image/place-5.jpg" alt="erorr">
+          <p>نيوزلاندا</p>
+        </div>
+        <div><img src="assets/image/place-6.jpg" alt="erorr">
+          <p>اسكتلاندا</p>
+        </div>
+        <div><img src="assets/image/place-7.jpg" alt="erorr">
+          <p>مصر</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <!-- end places  -->
+  <!-- ////////////////////////// -->
+  <!-- start content2  -->
+  <div class="content2 mb-60-px py-3" data-aos="zoom-in-up"  data-aos-duration="1000">
+    <video  autoplay loop >
+      <source src="assets/image/bg.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+      <div class="text-content2">
+        <div class=" logo d-flex align-items-center justify-content-center"><img class=" w-75-px h-75-px"
+            src="assets/image/logo.png" alt="erorr">
+          <h4>باروت <span>سفاري</span></h4>
+        </div>
+        <p>معنا ستكتشق العالم جميع المناطق السياحيه حول العالم و جميه المدن الساحليه ة جميع الانشطه , معني ستكتشق العالم
+          جميع المناطق السياحيه حول العالم و جميه المدن الساحليه ة جميع الانشطه</p>
+        <button class="btn btn-primary">لمعرفه المزيد</button>
+      </div>
+    </div>
+  </div>
+  <!-- end content2  -->
+  <!-- //////////////////////// -->
+  <!-- start story  -->
+  <div class="story mb-100-px">
+    <div class="container-fluid">
+      <div class="section mb-5" data-aos="fade-down"  data-aos-duration="1000">
+        <h2> قصص حديثه</h2>
+      </div>
+      <div class="row ">
+        <div class=" right-story col-lg-6 col-md-6 col-12" data-aos="fade-left"  data-aos-duration="1000">
+          <div class="card">
+            <div class="card-img-top"> <img src="assets/image/story1.jpg" alt="erorr"></div>
+            <div class="card-body">
+              <h6>الهند</h6>
+              <h4>7 رحلات يومية مثالية</h4>
+              <p>الهند، أرضٌ مدهشة تجمع بين التنوع الثقافي والتضاريس الخلابة. تعتبر الهند سابع أكبر دولة في العالم من
+                حيث المساحة، وثاني أكبر دول العالم من حيث الكثافة السكانية. تمتاز بتنوّع اللغات والأعراق والديانات
+                الموجودة فيها. إذا كنت تخطط لرحلة إلى هذا البلد المذهل، إليك بعض النصائح:
+              </p>
+              <div class="social">
+                <img src="assets/image/facebock.png" alt="erorr">
+                <img src="assets/image/insta.png" alt="erorr">
+                <img src="assets/image/twiter.png" alt="erorr">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 left-story row" data-aos="fade-left"  data-aos-duration="2000">
+          <div class="col-8 row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-img-top"> <img src="assets/image/story2.jpg" alt="erorr"></div>
+                <div class="card-body">
+                  <h6>مارانو دي نابولي</h6>
+                  <p>المالديف </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-img-top"> <img src="assets/image/story3.jpg" alt="erorr"></div>
+                <div class="card-body">
+                  <h6>مارانو دي نابولي</h6>
+                  <p>المالديف </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 row">
+            <div class="col-12 ">
+              <div class="card">
+                <div class="card-body">
+                  <h6>46 صور سفر مذهلة</h6>
+                  <p>إجازة</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h6>7 كتب رائعة يجب أن تقرأها</h6>
+                  <p>إجازة</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h6>الناس والطبيعة والحياة اليومية</h6>
+                  <p>إجازة</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h6>ماذا نأكل على الإفطار</h6>
+                  <p>إجازة</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h6>أفضل المدن في أوروبا</h6>
+                  <p>إجازة</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end story  -->
+  <!-- ////////////////////// -->
+  <!-- start footer -->
+<footer class="mb-5" id="end">
+<div class="container">
+  <div class="section mb-5" data-aos="fade-down"  data-aos-duration="100">
+    <h2> للدعم و المساعده</h2>
+  </div>
+<div class="row row-cols-lg-3 row-cols-md-3 row-cols-1 d-flex align-items-center justify-content-center" data-aos="fade-left"  data-aos-duration="1000">
+  <div class="col">
+    <ul>
+      <h3 style="color: var(--sodark) ; font-weight: bolder;">للدعم</h3>
+      <li>تواصل معنا</li>
+      <li> خدمات الدعم</li>
+      <li>احدث العروص</li>
+      <li>احدث العروص</li>
+      <li>احدث العروص</li>
+    </ul>
+    <button class="btn btn-outline-primary w-50 mb-3">لتسجيل الدخول</button>
+    <button class="btn btn-primary w-50 ">اشترك</button>
+  </div>
+  <div class="col ">
+    <div class="social row row-cols-3 m-auto ">
+      <div class="col">
+        <img src="assets/image/facebock.png" alt="erorr">
+      </div>
+      <div class="col">
+        <img src="assets/image/twiter.png" alt="erorr">
+      </div>
+      <div class="col">
+        <img src="assets/image/insta.png" alt="erorr">
+      </div>
+      <div class="col">
+        <img src="assets/image/youtube.png" alt="erorr">
+      </div>
+      <div class="col">
+
+        <img src="assets/image/pin.png" alt="erorr">
+      </div>
+      <div class="col">
+
+        <img src="assets/image/wifi.png" alt="erorr">
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <img src="assets/image/map.png" alt="erorr">
+  </div>
+
+</div>
+</div>
+</footer>
+  <!-- end footer -->
+  <!-- /////////////////////////////// -->
+  <!-- end -->
+  <div class="end" data-aos="fade-up"  data-aos-duration="500">
+<p>تم التصميم بواسطه</p>
+  </div>
+
+  <div class="scroll-top">
+<button class="top"><i class="fa-solid fa-angle-double-up"></i></button>
+  </div>
+
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/jquery-3.7.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/autotyping.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/slick-animation.min.js"></script>
+  <script src="assets/js/javascript.js"></script>
+  <script src="assets/js/@splidejs/splide.js"></script> <!-- yosef mostafa 01275086115 -->
+  <script src="assets/js/@splidejs/splide-extension-auto-scroll/dist/js/splide-extension-auto-scroll.min.js"></script>
+  <script>
+         if (screen.width >= 768) {
+    const splide = new Splide('.splide', {
+      type: 'loop',
+      drag: 'free',
+      focus: 'center',
+      perPage: 4,
+      autoScroll: {
+        speed: 1,
+      },
+    });
+
+    splide.mount(window.splide.Extensions);
+  }
+    else if (screen.width <= 768) {
+    const splide = new Splide('.splide', {
+      type: 'loop',
+      drag: 'free',
+      focus: 'center',
+      perPage: 2,
+      autoScroll: {
+        speed: 1,
+      },
+    });
+
+    splide.mount(window.splide.Extensions);
+  }
+  </script>
+</body>
+
+</html>
